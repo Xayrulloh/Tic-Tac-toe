@@ -256,8 +256,8 @@ function optimus() {
             console.log('a');
             if (!shablon[a] && !shablon[b]) {
                 console.log('yeah');
-                shablon[a] = '0'
-                cell[a].textContent = 'O'
+                shablon[b] = '0'
+                cell[b].textContent = 'O'
                 return
             }
         }
